@@ -11,6 +11,10 @@ search_buton.addEventListener("click",(e)=>{
 
      query = query.toLowerCase();
     if(query) {
+      document.querySelector(".video-test-animated").style.display = "none";
+      document.querySelector(".video-size").style.display = "none";
+
+      
       document.getElementById("box-fill").innerHTML = ``;
       fetch('/search?query=' + encodeURIComponent(query))
         .then(response => {
