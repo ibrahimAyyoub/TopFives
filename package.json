@@ -1,0 +1,17 @@
+{
+  "name": "topfives",
+  "version": "1.0.0",
+  "description": "Top Fives is a simple web app that gives you the best 5 cheap and  high quality products in one search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ibrahim Ayyoub",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "html-to-text": "^4.0.0",
+    "https": "^1.0.0",
+    "request": "^2.88.0"
+  }
+}
